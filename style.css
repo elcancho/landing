@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 :root {
-	--violet: #3D954F;
+	--greenz: #3D954F;
 }
 
 body {
@@ -24,7 +24,7 @@ header nav {
 header nav h1 {
 	margin: 0;
 	text-transform: uppercase;
-	color: var(--violet);
+	color: var(--greenz);
 }
 header nav .right {
 	display: flex;
@@ -35,23 +35,24 @@ header nav .right p {
 	color: black;
 }
 header nav .right p:hover {
-	color: #3D954F;
+	color: var(--greenz);
 	cursor: pointer;
 }
 header nav .right button {
 	padding: 5px 15px;
 	font-size: 16px;
 	background-color: inherit;
-	border: 1px solid var(--violet);
+	border: 1px solid var(--greenz);
 	border-radius: 5px;
-	color: var(--violet);
+	color: black;
 	cursor: pointer;
 	transition: color 0.5s, background-color 0.5s;
 	
 }
 header nav .right button:hover {
-	color: inherit;
-	background-color: var(--violet);
+	background-color: var(--greenz);
+	color: #3D954F;
+	color: white;
 }
 
 .presentation {
@@ -63,7 +64,7 @@ header nav .right button:hover {
 }
 .presentation .product-presentation {
 	width: 100%;
-	flex-shrink: 3;
+	flex-shrink: 31;
 }
 .presentation .product-presentation h1 {
 	margin: 0;
@@ -88,14 +89,14 @@ header nav .right button:hover {
 }
 
 .first .product-presentation button {
-	background-color: var(--violet);
+	background-color: var(--greenz);
 	color: white;
-	border: 1px solid var(--violet);
+	border: 1px solid var(--greenz);
 	transition: background-color 0.5s, color 0.5s;
 }
 .first .product-presentation button:hover {
 	background-color: inherit;
-	color: var(--violet);
+	color: var(--greenz);
 }
 .first .product-presentation .small-images {
 	margin-top: 30px;
@@ -105,7 +106,7 @@ header nav .right button:hover {
 }
 .first .product-presentation .small-images .small {
 	padding: 20px;
-	background-color: #3D954F;
+	background-color: #B1DEBD;
 	margin: 0 15px 15px 0;
 	border-radius: 20px;
 	transition: filter 0.5s;
@@ -114,7 +115,7 @@ header nav .right button:hover {
 	filter: brightness(50%);
 }
 .first .product-presentation .small-images .small img {
-	width: 120px;
+	width: 100px;
 }
 
 .second {
@@ -122,16 +123,16 @@ header nav .right button:hover {
 	background-color: #B1DEBD;
 }
 .second .product-presentation .new {
-	color: var(--violet);
+	color: var(--greenz);
 }
 .second .product-presentation button {
 	background-color: inherit;
-	border: 1px solid var(--violet);
-	color: var(--violet);
+	border: 1px solid var(--greenz);
+	color: var(--greenz);
 	transition: background-color 0.5s, color 0.5s;
 }
 .second .product-presentation button:hover {
-	background-color: var(--violet);
+	background-color: var(--greenz);
 	color: white;
 }
 
